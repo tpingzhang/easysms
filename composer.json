@@ -1,0 +1,32 @@
+{
+    "name": "tping/easysms",
+    "description": "The easiest way to send short message.",
+	"keywords": ["laravel", "sms"],
+    "type": "library",
+	"authors": [{
+		"name": "tping",
+		"email": "zhanggucheng11@qq.com",
+		"homepage": ""
+	}],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "php": ">=5.6",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^7.5",
+        "mockery/mockery": "1.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tping\\EasySms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tping\\EasySms\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    
+}
